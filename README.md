@@ -19,3 +19,11 @@ npm install ms-time
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'ms-time';
+// See API section for available functions
+```
