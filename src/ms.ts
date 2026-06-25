@@ -1,6 +1,10 @@
 
 // Type exports for consumers
 // Add specific types as needed
+/**
+ * ms
+ * @param str
+ */
 export function ms(str: string): number {
   const match = str.match(/^(\d+)\s*(ms|s|m|h|d|w)$/);
   if (!match) throw new Error("Invalid format. Use: 100ms, 5s, 10m, 2h, 1d, 1w");
