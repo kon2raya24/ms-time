@@ -1,3 +1,7 @@
+/**
+ * formatMs
+ * @param ms
+ */
 export function formatMs(ms: number): string {
   if (ms < 0) throw new Error("Milliseconds must be non-negative");
   if (ms === 0) return "0ms";
